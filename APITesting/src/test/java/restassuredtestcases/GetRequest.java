@@ -11,7 +11,7 @@ public class GetRequest {
 	void testGetUsersList() {
 		
 		System.out.println("===== Test 1 =====");
-		
+		//Sending get request to the server
 		Response rsp = RestAssured.get("https://reqres.in/api/users?page=2");
 		
 		
